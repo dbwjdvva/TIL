@@ -24,6 +24,7 @@ public class Solution {
             sb.append("#"+testCase);
 
             int maxFreq = sumsFreq[sumsFreq.length-1];
+            System.out.println(maxFreq);
             for(int i=0; i<sums.length; i++) {
                 if(sums[i]==maxFreq) {
                     sb.append(" ").append(i);
